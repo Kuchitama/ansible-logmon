@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Kuchitama
-  description: "Install logmon use [Kuchitama/logmon](https://github.com/Kuchitama/logmon).Kuchitama/logmon is fork of [moomindani/logmon](https://github.com/moomindani/logmon)."
+  description: "Install logmon use https://github.com/Kuchitama/logmon.Kuchitama/logmon is fork of moomindani/logmon ."
   company: "ShareWis Inc."
   
   license: MIT
