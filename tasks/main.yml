@@ -6,7 +6,7 @@
   unarchive: src=/tmp/logmon.zip dest=/tmp copy=no
 
 - name: setup logmon
-  command: ./setup.sh chdir=/tmp/logmon-{{ logmon_version }}
+  command: ./setup.sh chdir=/tmp/logmon-{{ logmon_installer_version }}
 
 - name: deploy logmon.conf
   template: src=logmon_conf.j2 dest=/etc/logmon/logmon.conf mode=0644 force=yes
